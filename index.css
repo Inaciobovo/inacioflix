@@ -1,0 +1,69 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0px;
+    font-family: "Chackra Patch", sans-serif;
+    margin-bottom: 100px;
+   
+}
+
+header{
+    border-bottom: solid 2px rgba(143, 90, 173, 0.884);
+   padding: 20px;
+   font-size: 32px;
+   color: rgba(113, 11, 172, 0.884);
+  
+   
+}
+
+.chamada{
+    background-color: rgba(87, 31, 119, 0.884);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.chamada-texto{
+    margin-right: 5%;
+    
+}
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid blueviolet;
+}
+
+.categoria h2{
+    color: blueviolet;
+    
+}
